@@ -1,23 +1,15 @@
 import React, { Component } from 'react';
 import { 
-    AppRegistry, 
-    StatusBar, 
-    View 
+    AppRegistry
 } from 'react-native';
 
-import BarraNavegacao from './src/components/BarraNavegacao';
+import CenaPrincipal from './src/components/CenaPrincipal';
+
 
 export default class atmConsultoria extends Component {
     render() {
         return (
-            <View>
-                <StatusBar
-                    hidden
-                    backgroundColor='#CCC' 
-                />
-
-                <BarraNavegacao />  
-            </View>
+            <CenaPrincipal />
         );
     }
 }
