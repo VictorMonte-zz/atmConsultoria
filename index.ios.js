@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
-import { AppRegistry, StatusBar, View } from 'react-native';
+import { 
+    AppRegistry, 
+    StatusBar, 
+    View 
+} from 'react-native';
 
 import BarraNavegacao from './src/components/BarraNavegacao';
 
