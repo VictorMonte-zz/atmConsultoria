@@ -12,14 +12,14 @@ export default class atmConsultoria extends Component {
     render() {
         return (
             <Navigator
-                initialRoute={{ id: 'a' }}
+                initialRoute={{ id: 'principal' }}
                 renderScene={(route, navigator) => {
                     switch (route.id) {
-                        case 'a':
+                        case 'principal':
                             return (
                                 <CenaPrincipal navigator={navigator} />
                             );
-                        case 'b':
+                        case 'cliente':
                             return (
                                 <CenaClientes navigator={navigator} />
                             );
