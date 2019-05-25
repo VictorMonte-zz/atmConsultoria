@@ -17,6 +17,7 @@ export default class CenaClientes extends Component {
     render() {
         return (
             <View>
+                
                 <StatusBar
                     hidden
                     backgroundColor='#CCC' 
