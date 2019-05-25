@@ -8,6 +8,7 @@ import CenaPrincipal from './src/components/CenaPrincipal';
 import CenaClientes from './src/components/CenaClientes';
 import CenaContatos from './src/components/CenaContatos';
 import CenaEmpresa from './src/components/CenaEmpresa';
+import CenaServicos from './src/components/CenaServicos';
 
 export default class atmConsultoria extends Component {
     render() {
@@ -32,8 +33,12 @@ export default class atmConsultoria extends Component {
                             return (
                                 <CenaEmpresa navigator={navigator} />
                             );
+                        case 'servicos':
+                                return (
+                                    <CenaServicos navigator={navigator} />
+                                );
                         default:
-                            throw new Error('Route not implemented');
+                            return false;                    
                     }
                 }}
             />
