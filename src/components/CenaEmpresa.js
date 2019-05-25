@@ -13,7 +13,7 @@ const detalheEmpresa = require('../imgs/detalhe_empresa.png');
 export default class CenaEmpresa extends Component {
     render() {
         return (
-            <View>
+            <View style={{ backgroundColor: '#FFF', flex: 1 }}>
 
                 <StatusBar
                     hidden

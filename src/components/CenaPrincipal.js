@@ -18,7 +18,7 @@ const menuServico = require('../imgs/menu_servico.png');
 export default class CenaPrincipal extends Component {
     render() {
         return (
-            <View>
+            <View style={{ backgroundColor: '#FFF', flex: 1 }}>
                 <StatusBar
                     //hidden
                     backgroundColor='#CCC' 
