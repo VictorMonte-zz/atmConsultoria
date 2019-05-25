@@ -17,10 +17,10 @@ export default class CenaEmpresa extends Component {
 
                 <StatusBar
                     hidden
-                    backgroundColor='#CCC' 
+                    backgroundColor='#EC7148' 
                 />
 
-                <BarraNavegacao voltar navigator={this.props.navigator} />  
+                <BarraNavegacao voltar navigator={this.props.navigator} corDeFundo='#EC7148' />  
 
                 <View style={styles.cabecalho}>
                     <Image source={detalheEmpresa} />

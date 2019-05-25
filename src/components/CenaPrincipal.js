@@ -20,7 +20,7 @@ export default class CenaPrincipal extends Component {
         return (
             <View>
                 <StatusBar
-                    hidden
+                    //hidden
                     backgroundColor='#CCC' 
                 />
 
