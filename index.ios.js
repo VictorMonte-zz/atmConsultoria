@@ -6,6 +6,7 @@ import { Navigator } from 'react-native-deprecated-custom-components';
 
 import CenaPrincipal from './src/components/CenaPrincipal';
 import CenaClientes from './src/components/CenaClientes';
+import CenaContatos from './src/components/CenaContatos';
 
 export default class atmConsultoria extends Component {
     render() {
@@ -21,6 +22,10 @@ export default class atmConsultoria extends Component {
                         case 'b':
                             return (
                                 <CenaClientes navigator={navigator} />
+                            );
+                        case 'contato':
+                            return (
+                                <CenaContatos navigator={navigator} />
                             );
                         default:
                             throw new Error('Route not implemented');
